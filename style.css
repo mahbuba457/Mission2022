@@ -5,10 +5,11 @@ body{
 
 
 
-#web-dev{
-    border-left: 7 px solid;
-    border-image:linear-gradient(pink,purple);
-    border-image-slice:1;
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
 }
 h1{
     font-size: 50px;
@@ -81,29 +82,33 @@ margin-bottom: 150px;
     background-position: left;
     background-repeat: no-repeat;
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 140px;
 }
 .Dream-big{
     background-image: url(images/dream-bg.png);
+    width: 80%;
     background-repeat:no-repeat;
     background-position: right;
     background-repeat: no-repeat;
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 140px;
+    margin:100px 300px;
+    align-items:center;
+
+ 
 }
 .corona{
     text-align: center;
 }
 
+.red{
+  border-left: 1px palevioletred;
 
+
+}
 .footer {
     text-align:center;
     background: #111;
     color:#fff;
     font-family:'Franklin Gothic Medium', '
 }
-
-
-
-
-
